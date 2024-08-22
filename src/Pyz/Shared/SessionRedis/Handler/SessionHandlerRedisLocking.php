@@ -46,6 +46,10 @@ class SessionHandlerRedisLocking extends SprykerSessionHandlerRedisLocking
         // the main concern / problem to solve:
         // how to merge $savedSession (potentially newer) with the current $_SESSION (potentially conflicting)
         // $_SESSION[...] = ...
+        // maybe even calculate a diff between current and saved session to decide does it make sense to write
+        // in case this approach won't work for some reason
+        // decouple session objects as much as possible, store only scalars in the session object
+        // Customer, Quote, etc objects - should be stored separately
 
         // encode updated version
         $data = session_encode(); // encodes $_SESSION into data, again, as previously it was done automatically by PHP before entering this method
