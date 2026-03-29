@@ -60,3 +60,6 @@ SRV-WS-VLV-SVC-001,Warehouse1,0,1,0
 SRV-WS-SV-CERT-001,Warehouse1,0,1,0
 SRV-WS-CTRL-REP-001,Warehouse1,0,1,0
 SRV-WS-SENS-CAL-001,Warehouse1,0,1,0
+HP-ECO-45K-1,Warehouse1,0,1,0
+HP-ECO-45K-2,Warehouse1,0,1,0
+HP-ECO-45K-3,Warehouse1,0,1,0
