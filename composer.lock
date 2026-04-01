@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62174227e5457035622b0a45e7728893",
+    "content-hash": "bcab0e0245195e43c9f41d86c5d7a184",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -90226,18 +90226,19 @@
         },
         {
             "name": "spryker/cypress-tests",
-            "version": "dev-feature/cc-37820/master-product-merchant-management",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/cypress-tests.git",
-                "reference": "303a3ebc6d9e7aff1d31888ca001d17726601da5"
+                "reference": "2ea013d59d70825d126aaea76a60de6e22e838e0"
             },
+            "default-branch": true,
             "type": "spryker-test",
             "license": [
                 "MIT"
             ],
             "description": "This repository is dedicated to housing an extensive collection of UI end-to-end tests, meticulously crafted using Cypress for Spryker applications. These tests are designed to thoroughly evaluate the user interface, ensuring that all interactions and visual elements function as intended in real-world scenarios. By leveraging Cypress's advanced browser automation capabilities, this suite provides an efficient and effective means of validating the user experience, confirming the seamless operation and aesthetic integrity of Spryker's front-end components. Our commitment to rigorous UI testing helps maintain the high standard of quality and reliability that Spryker users expect.",
-            "time": "2026-04-01T12:11:12+00:00"
+            "time": "2026-04-01T15:29:26+00:00"
         },
         {
             "name": "spryker/development",
