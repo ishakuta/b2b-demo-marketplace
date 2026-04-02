@@ -25,7 +25,7 @@
         "spryker-feature/analytics": "^202602.0",
         "spryker-feature/approval-process": "^202602.0",
         "spryker-feature/availability-notification": "^202602.0",
-        "spryker-feature/buy-box": "^1.1.0",
+        "spryker-feature/buy-box": "dev-master as 202602.0",
         "spryker-feature/cart": "^202602.0",
         "spryker-feature/catalog": "^202602.0",
         "spryker-feature/category-management": "^202602.0",
