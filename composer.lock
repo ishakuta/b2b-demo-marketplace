@@ -24741,16 +24741,16 @@
         },
         {
             "name": "spryker/api-platform",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/api-platform.git",
-                "reference": "b065cb6afe6497ede6d2c1161a212f652c176769"
+                "reference": "72d37d4c3340e7e6ebdf5fa5044eb887a71a56bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/api-platform/zipball/b065cb6afe6497ede6d2c1161a212f652c176769",
-                "reference": "b065cb6afe6497ede6d2c1161a212f652c176769",
+                "url": "https://api.github.com/repos/spryker/api-platform/zipball/72d37d4c3340e7e6ebdf5fa5044eb887a71a56bc",
+                "reference": "72d37d4c3340e7e6ebdf5fa5044eb887a71a56bc",
                 "shasum": ""
             },
             "require": {
@@ -24820,9 +24820,9 @@
                 "spryker"
             ],
             "support": {
-                "source": "https://github.com/spryker/api-platform/tree/0.6.0"
+                "source": "https://github.com/spryker/api-platform/tree/0.6.1"
             },
-            "time": "2026-03-09T09:13:58+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/app-catalog-gui",
@@ -28408,20 +28408,20 @@
         },
         {
             "name": "spryker/category-image",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/category-image.git",
-                "reference": "9e0e15c4a8c05bd3c9b0151f560bc2e0c692e3bc"
+                "reference": "50be767eb619a7253eb97ec35aadd032347ccd89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/category-image/zipball/9e0e15c4a8c05bd3c9b0151f560bc2e0c692e3bc",
-                "reference": "9e0e15c4a8c05bd3c9b0151f560bc2e0c692e3bc",
+                "url": "https://api.github.com/repos/spryker/category-image/zipball/50be767eb619a7253eb97ec35aadd032347ccd89",
+                "reference": "50be767eb619a7253eb97ec35aadd032347ccd89",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.3",
                 "spryker/acl-merchant-portal-extension": "^1.0.0",
                 "spryker/category": "^4.11.0 || ^5.0.0",
                 "spryker/category-extension": "^1.0.0",
@@ -28453,9 +28453,9 @@
             ],
             "description": "CategoryImage module",
             "support": {
-                "source": "https://github.com/spryker/category-image/tree/1.5.0"
+                "source": "https://github.com/spryker/category-image/tree/1.5.1"
             },
-            "time": "2025-08-04T08:52:14+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/category-image-gui",
@@ -48781,16 +48781,16 @@
         },
         {
             "name": "spryker/multi-factor-auth",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/multi-factor-auth.git",
-                "reference": "970c4177a5a0f1c6bc0fe0230114f82991fe5113"
+                "reference": "ddfa3e2e88d4fedc2911004dbe70d1ab44d0b9c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/multi-factor-auth/zipball/970c4177a5a0f1c6bc0fe0230114f82991fe5113",
-                "reference": "970c4177a5a0f1c6bc0fe0230114f82991fe5113",
+                "url": "https://api.github.com/repos/spryker/multi-factor-auth/zipball/ddfa3e2e88d4fedc2911004dbe70d1ab44d0b9c9",
+                "reference": "ddfa3e2e88d4fedc2911004dbe70d1ab44d0b9c9",
                 "shasum": ""
             },
             "require": {
@@ -48853,9 +48853,9 @@
             ],
             "description": "MultiFactorAuth module",
             "support": {
-                "source": "https://github.com/spryker/multi-factor-auth/tree/2.3.0"
+                "source": "https://github.com/spryker/multi-factor-auth/tree/2.4.0"
             },
-            "time": "2026-03-18T08:39:11+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/multi-factor-auth-extension",
@@ -63726,16 +63726,16 @@
         },
         {
             "name": "spryker/propel",
-            "version": "3.49.0",
+            "version": "3.49.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/propel.git",
-                "reference": "18dd1e0ff2a581b6d8062b681af904bb272fe513"
+                "reference": "71f8a881cedffdcb2a39009d36b2b22015792280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/propel/zipball/18dd1e0ff2a581b6d8062b681af904bb272fe513",
-                "reference": "18dd1e0ff2a581b6d8062b681af904bb272fe513",
+                "url": "https://api.github.com/repos/spryker/propel/zipball/71f8a881cedffdcb2a39009d36b2b22015792280",
+                "reference": "71f8a881cedffdcb2a39009d36b2b22015792280",
                 "shasum": ""
             },
             "require": {
@@ -63784,9 +63784,9 @@
             ],
             "description": "Propel module",
             "support": {
-                "source": "https://github.com/spryker/propel/tree/3.49.0"
+                "source": "https://github.com/spryker/propel/tree/3.49.1"
             },
-            "time": "2026-02-26T15:39:26+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/propel-orm",
@@ -65440,16 +65440,16 @@
         },
         {
             "name": "spryker/router",
-            "version": "1.26.1",
+            "version": "1.26.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/router.git",
-                "reference": "8ff399fbb735dd93c22fd31a7a90ec9f6b1e43cd"
+                "reference": "ed7a2d76e348c18ce2194646ffc3db4c5e3f8b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/router/zipball/8ff399fbb735dd93c22fd31a7a90ec9f6b1e43cd",
-                "reference": "8ff399fbb735dd93c22fd31a7a90ec9f6b1e43cd",
+                "url": "https://api.github.com/repos/spryker/router/zipball/ed7a2d76e348c18ce2194646ffc3db4c5e3f8b46",
+                "reference": "ed7a2d76e348c18ce2194646ffc3db4c5e3f8b46",
                 "shasum": ""
             },
             "require": {
@@ -65496,9 +65496,9 @@
             ],
             "description": "Router module",
             "support": {
-                "source": "https://github.com/spryker/router/tree/1.26.1"
+                "source": "https://github.com/spryker/router/tree/1.26.2"
             },
-            "time": "2026-03-12T10:59:22+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/router-extension",
@@ -66519,16 +66519,16 @@
         },
         {
             "name": "spryker/sales-order-threshold",
-            "version": "1.13.1",
+            "version": "1.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/sales-order-threshold.git",
-                "reference": "30a4db693c00b82b9abc244117939bc77c5e80b7"
+                "reference": "92399c38ba00d134207fea4e1f7c54c439882659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/sales-order-threshold/zipball/30a4db693c00b82b9abc244117939bc77c5e80b7",
-                "reference": "30a4db693c00b82b9abc244117939bc77c5e80b7",
+                "url": "https://api.github.com/repos/spryker/sales-order-threshold/zipball/92399c38ba00d134207fea4e1f7c54c439882659",
+                "reference": "92399c38ba00d134207fea4e1f7c54c439882659",
                 "shasum": ""
             },
             "require": {
@@ -66584,9 +66584,9 @@
             ],
             "description": "SalesOrderThreshold module",
             "support": {
-                "source": "https://github.com/spryker/sales-order-threshold/tree/1.13.1"
+                "source": "https://github.com/spryker/sales-order-threshold/tree/1.13.2"
             },
-            "time": "2025-12-04T11:50:23+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/sales-order-threshold-data-import",
@@ -68633,16 +68633,16 @@
         },
         {
             "name": "spryker/search-http",
-            "version": "0.5.9",
+            "version": "0.5.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/search-http.git",
-                "reference": "0ea37f98da5ffbc69573ca006f47389f97e7f880"
+                "reference": "8fc0ffcfdea8677cd9791eb0f2fc21889b61a6a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/search-http/zipball/0ea37f98da5ffbc69573ca006f47389f97e7f880",
-                "reference": "0ea37f98da5ffbc69573ca006f47389f97e7f880",
+                "url": "https://api.github.com/repos/spryker/search-http/zipball/8fc0ffcfdea8677cd9791eb0f2fc21889b61a6a6",
+                "reference": "8fc0ffcfdea8677cd9791eb0f2fc21889b61a6a6",
                 "shasum": ""
             },
             "require": {
@@ -68698,9 +68698,9 @@
             ],
             "description": "SearchHttp module",
             "support": {
-                "source": "https://github.com/spryker/search-http/tree/0.5.9"
+                "source": "https://github.com/spryker/search-http/tree/0.5.10"
             },
-            "time": "2026-02-13T13:48:29+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/secrets-manager",
@@ -68839,16 +68839,16 @@
         },
         {
             "name": "spryker/security",
-            "version": "1.10.2",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/security.git",
-                "reference": "a4318d416becf7d836c7059632a5fba5e6251f6d"
+                "reference": "1f17f72bb9af1cb63b5e4ec5903412b0ee66ff21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/security/zipball/a4318d416becf7d836c7059632a5fba5e6251f6d",
-                "reference": "a4318d416becf7d836c7059632a5fba5e6251f6d",
+                "url": "https://api.github.com/repos/spryker/security/zipball/1f17f72bb9af1cb63b5e4ec5903412b0ee66ff21",
+                "reference": "1f17f72bb9af1cb63b5e4ec5903412b0ee66ff21",
                 "shasum": ""
             },
             "require": {
@@ -68894,9 +68894,9 @@
             ],
             "description": "Security module",
             "support": {
-                "source": "https://github.com/spryker/security/tree/1.10.2"
+                "source": "https://github.com/spryker/security/tree/1.10.3"
             },
-            "time": "2025-12-04T11:50:23+00:00"
+            "time": "2026-04-04T07:25:58+00:00"
         },
         {
             "name": "spryker/security-blocker",
@@ -91172,9 +91172,9 @@
         "ext-readline": "*",
         "ext-redis": "*"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.3.13"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
