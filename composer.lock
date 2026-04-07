@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62174227e5457035622b0a45e7728893",
+    "content-hash": "30fdc437354a9892ac372e87c4c89735",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -9564,22 +9564,22 @@
         },
         {
             "name": "spryker-feature/buy-box",
-            "version": "202602.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-feature/buy-box.git",
-                "reference": "14c34a96a150375d99690fa4fa414ccce8e6a5a3"
+                "reference": "13b768479f3b579db54c990ac746e4fdbeba91da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-feature/buy-box/zipball/14c34a96a150375d99690fa4fa414ccce8e6a5a3",
-                "reference": "14c34a96a150375d99690fa4fa414ccce8e6a5a3",
+                "url": "https://api.github.com/repos/spryker-feature/buy-box/zipball/13b768479f3b579db54c990ac746e4fdbeba91da",
+                "reference": "13b768479f3b579db54c990ac746e4fdbeba91da",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.3",
                 "spryker-shop/shop-ui": "^1.102.0",
-                "spryker/kernel": "^3.30.0",
+                "spryker/kernel": "^3.82.0",
                 "spryker/merchant-storage": "^1.0.0",
                 "spryker/price-product": "^4.0.0",
                 "spryker/price-product-storage": "^4.0.0",
@@ -9598,6 +9598,7 @@
                 "spryker-shop/merchant-relation-request-widget": "Add the module if you want to use MerchantRelationRequestCreateLinkWidget.",
                 "spryker-shop/price-product-volume-widget": "Add the module if you want to use CurrentProductPriceVolumeWidget."
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -9615,9 +9616,9 @@
             ],
             "description": "BuyBox module",
             "support": {
-                "source": "https://github.com/spryker-feature/buy-box/tree/202602.0"
+                "source": "https://github.com/spryker-feature/buy-box/tree/master"
             },
-            "time": "2026-02-13T11:38:41+00:00"
+            "time": "2026-03-12T12:11:14+00:00"
         },
         {
             "name": "spryker-feature/cart",
@@ -14424,16 +14425,16 @@
         },
         {
             "name": "spryker-shop/availability-widget",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/availability-widget.git",
-                "reference": "855762951a9bb9ae4eeba715bb029e2f2b5c9501"
+                "reference": "965b08de5f9f50cc4d280a402e7ffe8cfb7b2e55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/availability-widget/zipball/855762951a9bb9ae4eeba715bb029e2f2b5c9501",
-                "reference": "855762951a9bb9ae4eeba715bb029e2f2b5c9501",
+                "url": "https://api.github.com/repos/spryker-shop/availability-widget/zipball/965b08de5f9f50cc4d280a402e7ffe8cfb7b2e55",
+                "reference": "965b08de5f9f50cc4d280a402e7ffe8cfb7b2e55",
                 "shasum": ""
             },
             "require": {
@@ -14443,7 +14444,7 @@
                 "spryker-shop/shop-ui": "^1.0.0",
                 "spryker/availability-storage": "^2.9.0",
                 "spryker/glossary-storage": "^1.0.0",
-                "spryker/kernel": "^3.30.0",
+                "spryker/kernel": "^3.82.0",
                 "spryker/locale": "^3.0.0 || ^4.0.0",
                 "spryker/transfer": "^3.25.0",
                 "spryker/util-number": "^1.0.0"
@@ -14473,9 +14474,9 @@
             ],
             "description": "AvailabilityWidget module",
             "support": {
-                "source": "https://github.com/spryker-shop/availability-widget/tree/1.3.0"
+                "source": "https://github.com/spryker-shop/availability-widget/tree/1.4.0"
             },
-            "time": "2026-02-12T08:48:01+00:00"
+            "time": "2026-03-12T12:11:14+00:00"
         },
         {
             "name": "spryker-shop/availability-widget-extension",
@@ -35266,6 +35267,60 @@
                 "source": "https://github.com/spryker/configurable-bundles-rest-api/tree/1.2.0"
             },
             "time": "2025-08-04T10:29:10+00:00"
+        },
+        {
+            "name": "spryker/configuration",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/configuration.git",
+                "reference": "340ef44c39f30948141985340c16488f15fd367b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/configuration/zipball/340ef44c39f30948141985340c16488f15fd367b",
+                "reference": "340ef44c39f30948141985340c16488f15fd367b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "spryker/acl": "^3.0.0",
+                "spryker/configuration-extension": "^1.0.0",
+                "spryker/kernel": "^3.82.0",
+                "spryker/propel-orm": "^1.0.0",
+                "spryker/publisher-extension": "^1.0.0",
+                "spryker/storage": "^3.0.0",
+                "spryker/symfony": "^3.0.0",
+                "spryker/synchronization": "^1.0.0",
+                "spryker/synchronization-behavior": "^1.0.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/util-encryption": "^1.1.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/propel": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Configuration module",
+            "support": {
+                "source": "https://github.com/spryker/configuration/tree/0.1.0"
+            },
+            "time": "2026-03-12T12:11:14+00:00"
         },
         {
             "name": "spryker/configuration-extension",
@@ -91103,6 +91158,12 @@
     ],
     "aliases": [
         {
+            "package": "spryker-feature/buy-box",
+            "version": "9999999-dev",
+            "alias": "202602.0",
+            "alias_normalized": "202602.0"
+        },
+        {
             "package": "spryker-feature/customer-account-management",
             "version": "9999999-dev",
             "alias": "202602.0",
@@ -91147,6 +91208,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "spryker-feature/buy-box": 20,
         "spryker-feature/customer-account-management": 20,
         "spryker-feature/marketplace-merchantportal-core": 20,
         "spryker-feature/product": 20,
