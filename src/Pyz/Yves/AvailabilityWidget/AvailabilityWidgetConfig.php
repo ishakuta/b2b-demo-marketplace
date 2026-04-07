@@ -14,9 +14,4 @@ use SprykerShop\Yves\AvailabilityWidget\AvailabilityWidgetConfig as SprykerShopA
 class AvailabilityWidgetConfig extends SprykerShopAvailabilityWidgetConfig
 {
     protected const bool STOCK_DISPLAY_ENABLED = true;
-
-    public function getStockDisplayMode(): string
-    {
-        return static::STOCK_DISPLAY_MODE_INDICATOR_AND_QUANTITY;
-    }
 }
