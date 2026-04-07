@@ -569,6 +569,8 @@ $config[QueueConstants::QUEUE_WORKER_MEMORY_READ_PROCESS_TIMEOUT] = (int)getenv(
 $config[EventBehaviorConstants::EVENT_BEHAVIOR_TRIGGERING_ACTIVE] = true;
 
 $config[EventConstants::MAX_RETRY_ON_FAIL] = 5;
+$config[QueueConstants::QUEUE_WORKER_MAX_PROCESSES] = 5;
+$config[QueueConstants::QUEUE_WORKER_DELAY_WHEN_NOT_EMPTY_MILLISECONDS] = 1000;
 $config[QueueConstants::QUEUE_PROCESS_TRIGGER_INTERVAL_MICROSECONDS] = 1001;
 $config[QueueConstants::QUEUE_MESSAGE_CHUNK_SIZE_MAP] = json_decode(getenv('QUEUE_MESSAGE_CHUNK_SIZE_MAP') ?: '[]', true);
 $config[QueueConstants::RESOURCE_AWARE_QUEUE_WORKER_ENABLED] = (bool)getenv('RESOURCE_AWARE_QUEUE_WORKER_ENABLED') ?? false;
