@@ -92,6 +92,7 @@ use Spryker\Zed\UrlStorage\Communication\Plugin\Synchronization\UrlRedirectSynch
 use Spryker\Zed\UrlStorage\Communication\Plugin\Synchronization\UrlSynchronizationDataPlugin;
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Synchronization\SspAsset\Search\SspAssetListSynchronizationDataBulkRepositoryPlugin as SearchSspAssetListSynchronizationDataBulkRepositoryPlugin;
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Synchronization\Storage\SspAssetListSynchronizationDataBulkRepositoryPlugin;
+use SprykerFeature\Zed\ProductExperienceManagement\Communication\Plugin\Synchronization\ProductAttributeSynchronizationDataBulkRepositoryPlugin;
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Synchronization\Storage\SspModelListSynchronizationDataBulkRepositoryPlugin;
 
 class SynchronizationDependencyProvider extends SprykerSynchronizationDependencyProvider
@@ -184,6 +185,7 @@ class SynchronizationDependencyProvider extends SprykerSynchronizationDependency
             new ShipmentTypeSynchronizationDataBulkRepositoryPlugin(),
             new ProductOfferServiceSynchronizationDataBulkRepositoryPlugin(),
             new ProductOfferShipmentTypeSynchronizationDataBulkRepositoryPlugin(),
+            new ProductAttributeSynchronizationDataBulkRepositoryPlugin(),
         ];
     }
 

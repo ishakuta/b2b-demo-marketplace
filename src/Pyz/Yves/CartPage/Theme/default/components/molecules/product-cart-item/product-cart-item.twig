@@ -33,6 +33,11 @@
             <div class="{{ config.name }}__col {{ config.name }}__col--content col">
                 {{ block('title') }}
                 {{ block('info') }}
+
+                {% widget 'ProductAttributeVisibilityCartWidget' args [data.list is iterable ? null : data.list, data.listItem.idProductAbstract, data.listItem.id] only %}
+                {% nowidget %}
+                {% endwidget %}
+
                 {{ block('productConfiguration') }}
                 {{ block('productInfo') }}
 

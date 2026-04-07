@@ -200,6 +200,9 @@ use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Publisher\SspAsset
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Publisher\SspAssetPublisherTriggerPlugin;
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Publisher\SspModel\Storage\SspModelToProductListWritePublisherPlugin;
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Publisher\SspModel\Storage\SspModelWritePublisherPlugin;
+use SprykerFeature\Shared\ProductExperienceManagement\ProductExperienceManagementConfig;
+use SprykerFeature\Zed\ProductExperienceManagement\Communication\Plugin\Publisher\ProductAttributePublisherTriggerPlugin;
+use SprykerFeature\Zed\ProductExperienceManagement\Communication\Plugin\Publisher\ProductAttributeWritePublisherPlugin;
 use SprykerFeature\Zed\SelfServicePortal\Communication\Plugin\Publisher\SspModelPublisherTriggerPlugin;
 
 class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
@@ -253,6 +256,7 @@ class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
             $this->getProductOfferServicePointStoragePlugins(),
             $this->getProductOfferShipmentTypeStoragePlugins(),
             $this->getAlgoliaPlugins(),
+            $this->getProductAttributeStoragePlugins(),
         );
     }
 
@@ -317,6 +321,19 @@ class PublisherDependencyProvider extends SprykerPublisherDependencyProvider
             new ProductOfferServicePublisherTriggerPlugin(),
             new ProductOfferShipmentTypePublisherTriggerPlugin(),
             new ProductSearchPublisherTriggerPlugin(),
+            new ProductAttributePublisherTriggerPlugin(),
+        ];
+    }
+
+    /**
+     * @return array<string, list<\Spryker\Zed\PublisherExtension\Dependency\Plugin\PublisherPluginInterface>>
+     */
+    protected function getProductAttributeStoragePlugins(): array
+    {
+        return [
+            ProductExperienceManagementConfig::PUBLISH_PRODUCT_ATTRIBUTE => [
+                new ProductAttributeWritePublisherPlugin(),
+            ],
         ];
     }
 

@@ -11,6 +11,7 @@ namespace Pyz\Client\RabbitMq;
 
 use Pyz\Shared\SelfServicePortal\SelfServicePortalConfig;
 use Spryker\Client\RabbitMq\RabbitMqConfig as SprykerRabbitMqConfig;
+use SprykerFeature\Shared\ProductExperienceManagement\ProductExperienceManagementConfig;
 use Spryker\Shared\AssetStorage\AssetStorageConfig;
 use Spryker\Shared\AvailabilityStorage\AvailabilityStorageConfig;
 use Spryker\Shared\AvailabilityStorage\AvailabilityStorageConstants;
@@ -180,6 +181,7 @@ class RabbitMqConfig extends SprykerRabbitMqConfig
             ProductMeasurementUnitStorageConfig::PUBLISH_PRODUCT_MEASUREMENT_UNIT_QUEUE,
             ProductPackagingUnitStorageConfig::PUBLISH_PRODUCT_PACKAGING_UNIT_QUEUE,
             ProductReviewStorageConfig::PUBLISH_PRODUCT_REVIEW_STORAGE_QUEUE,
+            ProductExperienceManagementConfig::PUBLISH_PRODUCT_ATTRIBUTE,
         ];
     }
 
@@ -232,6 +234,7 @@ class RabbitMqConfig extends SprykerRabbitMqConfig
             SelfServicePortalConfig::QUEUE_NAME_SYNC_STORAGE_SSP_MODEL,
             SelfServicePortalConfig::QUEUE_NAME_SYNC_STORAGE_SSP_ASSET,
             SelfServicePortalConfig::QUEUE_NAME_SYNC_SEARCH_SSP_ASSET,
+            ProductExperienceManagementConfig::PRODUCT_ATTRIBUTE_SYNC_STORAGE_QUEUE,
         ];
     }
 
