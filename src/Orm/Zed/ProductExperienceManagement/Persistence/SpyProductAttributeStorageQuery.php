@@ -2,7 +2,7 @@
 
 namespace Orm\Zed\ProductExperienceManagement\Persistence;
 
-use Orm\Zed\ProductExperienceManagement\Persistence\Base\SpyProductAttributeStorageQuery as BaseSpyProductAttributeStorageQuery;
+use SprykerFeature\Zed\ProductExperienceManagement\Persistence\Propel\AbstractSpyProductAttributeStorageQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'spy_product_attribute_storage' table.
@@ -13,7 +13,7 @@ use Orm\Zed\ProductExperienceManagement\Persistence\Base\SpyProductAttributeStor
  * application requirements.  This class will only be generated as
  * long as it does not already exist in the output directory.
  */
-class SpyProductAttributeStorageQuery extends BaseSpyProductAttributeStorageQuery
+class SpyProductAttributeStorageQuery extends AbstractSpyProductAttributeStorageQuery
 {
 
 }
