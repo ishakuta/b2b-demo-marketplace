@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23bda370a282db82a943e7c82c3be8bb",
+    "content-hash": "ba501ba67c99067baa7fd0bf63eac48f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -12575,7 +12575,7 @@
         },
         {
             "name": "spryker-feature/product-experience-management",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-feature/product-experience-management.git",
@@ -12616,6 +12616,7 @@
                 "spryker/gui": "If you want to use Select2ComboBoxType in form expander plugins.",
                 "spryker/propel-orm": "If you want to use Propel ORM for persistence."
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -12633,7 +12634,7 @@
             ],
             "description": "ProductExperienceManagement module",
             "support": {
-                "source": "https://github.com/spryker-feature/product-experience-management/tree/1.0.0"
+                "source": "https://github.com/spryker-feature/product-experience-management/tree/master"
             },
             "time": "2026-04-07T09:30:41+00:00"
         },
@@ -91388,6 +91389,12 @@
             "alias_normalized": "202602.0"
         },
         {
+            "package": "spryker-feature/product-experience-management",
+            "version": "9999999-dev",
+            "alias": "202604.0",
+            "alias_normalized": "202604.0"
+        },
+        {
             "package": "spryker-feature/scheduled-prices",
             "version": "9999999-dev",
             "alias": "202604.0",
@@ -91418,6 +91425,7 @@
         "spryker-feature/customer-account-management": 20,
         "spryker-feature/marketplace-merchantportal-core": 20,
         "spryker-feature/product": 20,
+        "spryker-feature/product-experience-management": 20,
         "spryker-feature/scheduled-prices": 20,
         "spryker-feature/self-service-portal": 20,
         "spryker-feature/spryker-core": 20,
