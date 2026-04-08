@@ -23,6 +23,7 @@ use Spryker\Shared\CompanyUserStorage\CompanyUserStorageConfig;
 use Spryker\Shared\Config\Config;
 use Spryker\Shared\ConfigurableBundlePageSearch\ConfigurableBundlePageSearchConfig;
 use Spryker\Shared\ConfigurableBundleStorage\ConfigurableBundleStorageConfig;
+use Spryker\Shared\Configuration\ConfigurationConstants;
 use Spryker\Shared\ContentStorage\ContentStorageConfig;
 use Spryker\Shared\CustomerAccessStorage\CustomerAccessStorageConstants;
 use Spryker\Shared\CustomerStorage\CustomerStorageConfig;
@@ -188,6 +189,7 @@ class QueueDependencyProvider extends SprykerDependencyProvider
             ProductReviewStorageConfig::PUBLISH_PRODUCT_REVIEW_STORAGE_QUEUE => new EventQueueMessageProcessorPlugin(),
             ProductExperienceManagementConfig::PUBLISH_PRODUCT_ATTRIBUTE => new EventQueueMessageProcessorPlugin(),
             ProductExperienceManagementConfig::PRODUCT_ATTRIBUTE_SYNC_STORAGE_QUEUE => new SynchronizationStorageQueueMessageProcessorPlugin(),
+            ConfigurationConstants::QUEUE_NAME_SYNC_CONFIGURATION => new SynchronizationStorageQueueMessageProcessorPlugin(),
         ];
     }
 

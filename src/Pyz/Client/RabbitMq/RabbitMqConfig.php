@@ -23,6 +23,7 @@ use Spryker\Shared\CmsStorage\CmsStorageConstants;
 use Spryker\Shared\CompanyUserStorage\CompanyUserStorageConfig;
 use Spryker\Shared\ConfigurableBundlePageSearch\ConfigurableBundlePageSearchConfig;
 use Spryker\Shared\ConfigurableBundleStorage\ConfigurableBundleStorageConfig;
+use Spryker\Shared\Configuration\ConfigurationConstants;
 use Spryker\Shared\ContentStorage\ContentStorageConfig;
 use Spryker\Shared\CustomerAccessStorage\CustomerAccessStorageConstants;
 use Spryker\Shared\CustomerStorage\CustomerStorageConfig;
@@ -235,6 +236,7 @@ class RabbitMqConfig extends SprykerRabbitMqConfig
             SelfServicePortalConfig::QUEUE_NAME_SYNC_STORAGE_SSP_ASSET,
             SelfServicePortalConfig::QUEUE_NAME_SYNC_SEARCH_SSP_ASSET,
             ProductExperienceManagementConfig::PRODUCT_ATTRIBUTE_SYNC_STORAGE_QUEUE,
+            ConfigurationConstants::QUEUE_NAME_SYNC_CONFIGURATION,
         ];
     }
 
