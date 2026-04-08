@@ -11,7 +11,6 @@ namespace Pyz\Client\RabbitMq;
 
 use Pyz\Shared\SelfServicePortal\SelfServicePortalConfig;
 use Spryker\Client\RabbitMq\RabbitMqConfig as SprykerRabbitMqConfig;
-use SprykerFeature\Shared\ProductExperienceManagement\ProductExperienceManagementConfig;
 use Spryker\Shared\AssetStorage\AssetStorageConfig;
 use Spryker\Shared\AvailabilityStorage\AvailabilityStorageConfig;
 use Spryker\Shared\AvailabilityStorage\AvailabilityStorageConstants;
@@ -81,6 +80,7 @@ use Spryker\Shared\TaxProductStorage\TaxProductStorageConfig;
 use Spryker\Shared\TaxStorage\TaxStorageConfig;
 use Spryker\Shared\UrlStorage\UrlStorageConfig;
 use Spryker\Shared\UrlStorage\UrlStorageConstants;
+use SprykerFeature\Shared\ProductExperienceManagement\ProductExperienceManagementConfig;
 
 /**
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

@@ -11,7 +11,6 @@ namespace Pyz\Zed\Queue;
 
 use Pyz\Shared\SelfServicePortal\SelfServicePortalConfig;
 use Spryker\Shared\AssetStorage\AssetStorageConfig;
-use SprykerFeature\Shared\ProductExperienceManagement\ProductExperienceManagementConfig;
 use Spryker\Shared\AvailabilityStorage\AvailabilityStorageConfig;
 use Spryker\Shared\AvailabilityStorage\AvailabilityStorageConstants;
 use Spryker\Shared\CategoryImageStorage\CategoryImageStorageConfig;
@@ -89,6 +88,7 @@ use Spryker\Zed\SymfonyMessenger\Communication\Plugin\Queue\SymfonyMessengerQueu
 use Spryker\Zed\Synchronization\Communication\Plugin\Queue\SynchronizationSearchQueueMessageProcessorPlugin;
 use Spryker\Zed\Synchronization\Communication\Plugin\Queue\SynchronizationStorageQueueMessageProcessorPlugin;
 use SprykerEco\Zed\Loggly\Communication\Plugin\LogglyLoggerQueueMessageProcessorPlugin;
+use SprykerFeature\Shared\ProductExperienceManagement\ProductExperienceManagementConfig;
 
 class QueueDependencyProvider extends SprykerDependencyProvider
 {
