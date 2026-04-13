@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Orm\Zed\PurchasingControl\Persistence;
 
-use Orm\Zed\PurchasingControl\Persistence\Base\SpyCostCenterToCompanyBusinessUnit as BaseSpyCostCenterToCompanyBusinessUnit;
+use SprykerFeature\Zed\PurchasingControl\Persistence\Propel\AbstractSpyCostCenterToCompanyBusinessUnit as BaseSpyCostCenterToCompanyBusinessUnit;
 
 /**
  * Skeleton subclass for representing a row from the 'spy_cost_center_to_company_business_unit' table.

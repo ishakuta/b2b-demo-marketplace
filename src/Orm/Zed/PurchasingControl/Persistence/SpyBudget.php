@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Orm\Zed\PurchasingControl\Persistence;
 
-use Orm\Zed\PurchasingControl\Persistence\Base\SpyBudget as BaseSpyBudget;
+use SprykerFeature\Zed\PurchasingControl\Persistence\Propel\AbstractSpyBudget as BaseSpyBudget;
 
 /**
  * Skeleton subclass for representing a row from the 'spy_budget' table.

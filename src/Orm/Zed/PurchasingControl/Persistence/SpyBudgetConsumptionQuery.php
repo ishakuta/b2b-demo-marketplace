@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Orm\Zed\PurchasingControl\Persistence;
 
-use Orm\Zed\PurchasingControl\Persistence\Base\SpyBudgetConsumptionQuery as BaseSpyBudgetConsumptionQuery;
+use SprykerFeature\Zed\PurchasingControl\Persistence\Propel\AbstractSpyBudgetConsumptionQuery as BaseSpyBudgetConsumptionQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'spy_budget_consumption' table.

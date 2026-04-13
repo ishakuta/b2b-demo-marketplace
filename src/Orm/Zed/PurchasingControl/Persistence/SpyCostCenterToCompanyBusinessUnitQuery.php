@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Orm\Zed\PurchasingControl\Persistence;
 
-use Orm\Zed\PurchasingControl\Persistence\Base\SpyCostCenterToCompanyBusinessUnitQuery as BaseSpyCostCenterToCompanyBusinessUnitQuery;
+use SprykerFeature\Zed\PurchasingControl\Persistence\Propel\AbstractSpyCostCenterToCompanyBusinessUnitQuery as BaseSpyCostCenterToCompanyBusinessUnitQuery;
 
 /**
  * Skeleton subclass for performing query and update operations on the 'spy_cost_center_to_company_business_unit' table.

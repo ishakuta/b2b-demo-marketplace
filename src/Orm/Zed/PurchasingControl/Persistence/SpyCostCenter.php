@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Orm\Zed\PurchasingControl\Persistence;
 
-use Orm\Zed\PurchasingControl\Persistence\Base\SpyCostCenter as BaseSpyCostCenter;
+use SprykerFeature\Zed\PurchasingControl\Persistence\Propel\AbstractSpyCostCenter as BaseSpyCostCenter;
 
 /**
  * Skeleton subclass for representing a row from the 'spy_cost_center' table.
