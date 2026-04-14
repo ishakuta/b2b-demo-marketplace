@@ -7892,16 +7892,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.50",
+            "version": "3.0.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b"
+                "reference": "d59c94077f9c9915abb51ddb52ce85188ece1748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
-                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d59c94077f9c9915abb51ddb52ce85188ece1748",
+                "reference": "d59c94077f9c9915abb51ddb52ce85188ece1748",
                 "shasum": ""
             },
             "require": {
@@ -7982,7 +7982,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.50"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.51"
             },
             "funding": [
                 {
@@ -7998,7 +7998,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-19T02:57:58+00:00"
+            "time": "2026-04-10T01:33:53+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -9153,16 +9153,16 @@
         },
         {
             "name": "spryker-eco/algolia",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-eco/algolia.git",
-                "reference": "de82e2637af81db08e34bc31d6a69dff65eb01f6"
+                "reference": "4cb0d70feadfcbfe78584eef448661ff6359e063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-eco/algolia/zipball/de82e2637af81db08e34bc31d6a69dff65eb01f6",
-                "reference": "de82e2637af81db08e34bc31d6a69dff65eb01f6",
+                "url": "https://api.github.com/repos/spryker-eco/algolia/zipball/4cb0d70feadfcbfe78584eef448661ff6359e063",
+                "reference": "4cb0d70feadfcbfe78584eef448661ff6359e063",
                 "shasum": ""
             },
             "require": {
@@ -9173,10 +9173,11 @@
                 "php": ">=8.3",
                 "spryker-shop/traceable-event-widget": "^1.1.0",
                 "spryker/cms": "^7.18.0",
+                "spryker/configuration-extension": "^1.0.0",
                 "spryker/customer": "^7.70.0",
                 "spryker/event-behavior": "^1.32.0",
                 "spryker/http": "^1.15.0",
-                "spryker/kernel": "^3.76.0",
+                "spryker/kernel": "^3.84.0",
                 "spryker/locale": "^4.12.0",
                 "spryker/log": "^3.18.0",
                 "spryker/product": "^6.53.0",
@@ -9185,7 +9186,7 @@
                 "spryker/publisher-extension": "^1.0.0",
                 "spryker/search-extension": "^1.4.0",
                 "spryker/search-http": "^0.5.9",
-                "spryker/store": "^1.30.0",
+                "spryker/store": "^1.36.1",
                 "spryker/symfony": "^3.19.2"
             },
             "require-dev": {
@@ -9222,9 +9223,9 @@
             "description": "Algolia module",
             "support": {
                 "issues": "https://github.com/spryker-eco/algolia/issues",
-                "source": "https://github.com/spryker-eco/algolia/tree/1.0.1"
+                "source": "https://github.com/spryker-eco/algolia/tree/1.1.0"
             },
-            "time": "2026-02-18T12:55:25+00:00"
+            "time": "2026-04-09T11:09:21+00:00"
         },
         {
             "name": "spryker-eco/loggly",
