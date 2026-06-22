@@ -116,3 +116,9 @@ docker
 
 # Generated icon sprite
 /frontend/assets/global/default/icons/sprite.svg
+
+# probe auth secret — created manually per-env, never commit
+public/Backoffice/.probe-token
+
+# ptest probe wrapper - hardcodes probe token, local only
+scripts/probe-ptest.sh
