@@ -60,46 +60,30 @@ class CheckoutController extends SprykerCheckoutController
      */
     public function addressAction(Request $request)
     {
-        // TEMP DIAGNOSTIC (remove after): trace where /checkout/address spends its time.
-        // error_log -> stderr -> CloudWatch (yves log). Grep "CHKTRACE".
-        $t0 = microtime(true);
-        $tr = static function (string $label) use ($t0): void {
-            error_log(sprintf('[CHKTRACE] %s t+%.3fs mem=%.1fMB', $label, microtime(true) - $t0, memory_get_usage(true) / 1048576));
-        };
-        $tr('addressAction ENTER');
-
         $quoteValidationResponseTransfer = $this->canProceedCheckout();
-        $tr(sprintf('after canProceedCheckout (success=%d)', (int)$quoteValidationResponseTransfer->getIsSuccessful()));
 
         if (!$quoteValidationResponseTransfer->getIsSuccessful()) {
             $this->processErrorMessages($quoteValidationResponseTransfer->getMessages());
-            $tr('redirect to cart (not applicable)');
 
             return $this->redirectResponseInternal(static::ROUTE_CART);
         }
 
-        $tr('before createCheckoutProcess()->process()');
         $response = $this->getFactory()->createCheckoutProcess()->process(
             $request,
             $this->getFactory()
                 ->createCheckoutFormFactory()
                 ->createAddressFormCollection(),
         );
-        $tr(sprintf('after process() (isArray=%d)', (int)is_array($response)));
 
         if (!is_array($response)) {
             return $response;
         }
 
-        $tr('before view() build (twig render happens AFTER controller returns)');
-        $view = $this->view(
+        return $this->view(
             $response,
             $this->getFactory()->getCustomerPageWidgetPlugins(),
             '@CheckoutPage/views/address/address.twig',
         );
-        $tr('after view() build - returning (if next gap is silent, hang is in twig/widget render)');
-
-        return $view;
     }
 
     /**
