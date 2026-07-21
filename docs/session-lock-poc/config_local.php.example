@@ -1,0 +1,5 @@
+<?php
+use Spryker\Shared\Session\SessionConstants;
+// Layer A (lock-free field-decomposed session) + Layer 0 metadata threshold (Pyz SessionFactory, 300s).
+ini_set('session.serialize_handler', 'php_serialize');
+$config[SessionConstants::YVES_SESSION_SAVE_HANDLER] = 'field_decomposed';
